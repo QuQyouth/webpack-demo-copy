@@ -5,5 +5,5 @@ mv dist/* ./ &&
 rm -rf dist;
 git add . &&
 git commit -m 'update' &&
-git push origin gh-pages && 
+git push --set-upstream origin gh-pages && 
 git checkout -
